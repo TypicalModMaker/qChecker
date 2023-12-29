@@ -47,6 +47,9 @@ public class ProtocolVersion {
 
     public static final ProtocolVersion v1_20_2 = register(764, "1.20.2");
 
+    public static final ProtocolVersion v1_20_3 = register(765, "1.20.3/1.20.4");
+
+    public static final ProtocolVersion v1_20_5 = register(766, "1.20.5");
 
     public static final ProtocolVersion unknown = register(-1, "UNKNOWN");
 
