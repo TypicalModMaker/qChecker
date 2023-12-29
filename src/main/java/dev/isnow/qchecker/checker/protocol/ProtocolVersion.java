@@ -78,6 +78,9 @@ public class ProtocolVersion {
             if(name.equals("1.16")) {
                 return ProtocolVersion.v1_16;
             }
+            if(name.equals("1.20")) {
+                return ProtocolVersion.v1_20;
+            }
             if (protocolVersion.name.contains(name)) {
                 return protocolVersion;
             }
